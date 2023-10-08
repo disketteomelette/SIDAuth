@@ -1,7 +1,12 @@
 # SIDAuth
 SIDAuth is for Session Identity Authorization.
 
-Access authorization system through pairing, using the generation of a five-character code based on PHP session identification. The user receives a code and remains in a waiting state. If this code is subsequently entered into the list of authorized sessions, the protected content is displayed.
+Access authorization system through pairing, using the generation of a five-character code based on PHP session identification. The user receives a code and remains in a waiting state. If this code is subsequently entered into the list of authorized sessions, the protected content is displayed. 
+
+To prevent direct access to protected content through direct URL entry, the content is encapsulated within PHP comments. If the session is authorized, the file is opened on the server-side, the encapsulation is removed, and the protected content is rendered. The same system is applied to authorized session codes.
+
+This system can be useful as an additional layer of security when conducting proof-of-concept testing for web applications in development.
+
 # Usage
 ```
 The content of the page must be placed between the first two lines
