@@ -1,7 +1,7 @@
 # SIDAuth
 Access authorization system through pairing, using the generation of a five-character code based on PHP session identification. The user receives a code and remains in a waiting state. If this code is subsequently entered into the list of authorized sessions, the protected content is displayed.
 # Usage
-
+```
 The content of the page must be placed between the first two lines and the last two lines of the "secret.php" file. Example:
 
   <?php
@@ -12,7 +12,7 @@ The content of the page must be placed between the first two lines and the last 
   </BODY>
   </HTML>
   */ 
-  ?>
+  ?> 
 
 The first and last two lines must not be removed under any circumstances. Even if the hidden program is PHP, it will not be affected.
 
@@ -42,3 +42,4 @@ It is possible to delete the content of the code file after access has been gran
 /* 
 */ 
 ?>
+```
