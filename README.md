@@ -4,17 +4,15 @@ Access authorization system through pairing, using the generation of a five-char
 
 The content of the page must be placed between the first two lines and the last two lines of the "secret.php" file. Example:
 
-<?php
-/*
-
-<HTML>
-<BODY>
-<a> Hidden message </a>
-</BODY>
-</HTML>
-
-*/ 
-?>
+  <?php
+  /*
+  <HTML>
+  <BODY>
+  <a> Hidden message </a>
+  </BODY>
+  </HTML>
+  */ 
+  ?>
 
 The first and last two lines must not be removed under any circumstances. Even if the hidden program is PHP, it will not be affected.
 
