@@ -1,9 +1,6 @@
 <?php 
 session_start();
-
 // SIDAuth v. 0.1 - github.com/disketteomelette
-
-  
 $data1='<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>body{margin:0;padding:0;font-family:Arial, sans-serif;color:#FFFFFF;}.error-box, .info-box{text-align:center;padding:20px;font-size:76px;}.error-box{background-color:#F6CED8;color:#ff0000;}.info-box{background-color:#F6CED8;color:#111111;}</style></head><body style="background-color: #FBEFF2;">';
 $data2='</body></html>';
 if (isset($_SESSION['codigo_sesion'])) { 
