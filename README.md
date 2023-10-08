@@ -5,7 +5,7 @@ Access authorization system through pairing, using the generation of a five-char
 
 To prevent direct access to protected content through direct URL entry, the content is encapsulated within PHP comments. If the session is authorized, the file is opened on the server-side, the encapsulation is removed, and the protected content is rendered. The same system is applied to authorized session codes.
 
-This system can be useful as an additional layer of security when conducting proof-of-concept testing for web applications in development.
+This system can be useful as an additional layer of security when conducting proof-of-concept testing for web applications in development on "the real Internet".
 
 # Usage
 ```
