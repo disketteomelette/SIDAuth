@@ -7,6 +7,8 @@ To prevent direct access to protected content through direct URL entry, the cont
 
 This system can be useful as an additional layer of security when conducting proof-of-concept testing for web applications in development on "the real Internet".
 
+WARNING: This system is inherently insecure. Do not use it under any circumstances without implementing additional security measures, as it is extremely easy to bypass.
+
 # Usage
 ```
 The content of the page must be placed between the first two lines
