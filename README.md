@@ -36,7 +36,7 @@ as follows:
 */ 
 ?>
 
-To enter a code, use:
+I. ex. To enter just one user code, use:
 
 <?php
 /*
