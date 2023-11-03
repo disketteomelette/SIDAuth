@@ -4,7 +4,7 @@ session_start();
 // Actualizaciones:
 // v.0.2 --- * Bug which allowed, by manipulating the PHP session in the browser, to access using PHP block start and end strings.
 //             Repaired deleting first and last 2 lines of text prior to check. 
-//           * TO DO's: Session code validation, use commented lines on codigos.php, audit, etc...
+//           * TO DO's: Session code validation, audit, etc...
 
 $data1='<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>body{margin:0;padding:0;font-family:Arial, sans-serif;color:#FFFFFF;}.error-box, .info-box{text-align:center;padding:20px;font-size:76px;}.error-box{background-color:#F6CED8;color:#ff0000;}.info-box{background-color:#F6CED8;color:#111111;}</style></head><body style="background-color: #FBEFF2;">';
 $data2='</body></html>';
